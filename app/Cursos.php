@@ -8,5 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Cursos extends Model
 {
     use Searchable;
+
     protected $fillable = ['nome', 'descricao', 'autor'];
 }

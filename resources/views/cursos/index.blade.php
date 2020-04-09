@@ -15,7 +15,7 @@
 
         <h1> Cursos </h1>
 
-        <form action="/courses" method="get">
+        <form action="/" method="get">
             Search: <input type="text" name="str" value="{{ $str }}">
             <input type="submit" class="btn-primary" value="Buscar">
         </form>
